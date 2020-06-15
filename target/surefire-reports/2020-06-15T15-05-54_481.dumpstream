@@ -1,0 +1,4 @@
+# Created at 2020-06-15T15:05:56.089
+Boot Manifest-JAR contains absolute paths in classpath 'D:\POORVI\workspace\JunitProject_2\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
