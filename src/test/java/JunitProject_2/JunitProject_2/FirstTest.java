@@ -34,7 +34,7 @@ WebDriver driver;
 	    driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 	   
 	    String currentURL=driver.getCurrentUrl();
-	    Assert.assertTrue(currentURL.contains("index.php/auth/login1"));
+	    Assert.assertTrue(currentURL.contains("index.php/auth/login"));
 	    
 	  
 		
