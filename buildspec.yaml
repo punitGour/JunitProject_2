@@ -19,7 +19,7 @@ cache:
 phases:
   install:
     runtime-versions:
-      java: corretto8
+      java: openjdk8
   build:
      commands:
           - echo "building my amazing repo..."
