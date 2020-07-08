@@ -8,8 +8,5 @@ phases:
      commands:
           - echo "building my amazing repo..."
           - mvn test
-          - export token=$(curl -H "Content-Type: application/json" -X POST --data "{ \"client_id\": \"B9B92CC6655B4421B8B536A9FF318094\",\"client_secret\": \"B9B92CC6655B4421B8B536A9FF318094\" }" https://xraydemoone.atlassian.net/api/v1/authenticate| tr -d '"')
-          - echo $token
-
-       
+          
           
