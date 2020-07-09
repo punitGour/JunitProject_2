@@ -24,7 +24,6 @@ phases:
      commands:
           - echo "building my amazing repo..."
           - ls
-          - cd lib
-          - ls
+          - chmod +x lib/geckodriver
           
           
