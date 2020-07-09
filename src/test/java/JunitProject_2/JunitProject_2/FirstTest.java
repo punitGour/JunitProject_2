@@ -13,7 +13,7 @@ WebDriver driver;
 	@Test
 	public void ValidLoginTest()
 	{
-		System.setProperty("webdriver.gecko.driver", "lib/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "lib/geckodriver");
 	    WebDriver driver = new FirefoxDriver();
 	    
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
@@ -28,7 +28,7 @@ WebDriver driver;
 	@Test
 	public void CurrentURL()
 	{
-		System.setProperty("webdriver.gecko.driver", "lib/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "lib/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 	    
 	    driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
