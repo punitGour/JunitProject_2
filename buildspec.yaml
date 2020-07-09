@@ -23,7 +23,7 @@ phases:
   build:
      commands:
           - echo "building my amazing repo..."
-          - ll
+          - ls
           - chmod +x /codebuild/output/src791194132/src/lib/geckodriver
           - mvn test
           - curl --version
