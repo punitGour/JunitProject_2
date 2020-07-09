@@ -28,6 +28,7 @@ phases:
           - mvn test
           - export token=$(curl -H "Content-Type:application/json" -X POST --data "{ \"client_id\":\"B9B92CC6655B4421B8B536A9FF318094\",\"client_secret\":\"0332eddb162e3d6c1d5fddc8748a7363fc36f09e023dbcf4a141606e663bff15\" }" https://xraydemoone.atlassian.net/api/v1/authenticate | tr -d '"')
           - echo $token
+          - ls
           - curl -H "Content-Type:text/xml" -X POST -H "Authorization:Bearer $token"  --data @"target/surefire-reports/TEST-JunitProject_2.JunitProject_2.FirstTest.xml" https://xraydemoone.atlassian.net/api/v1/import/execution/junit?projectKey=J1&testPlanKey=J1-2&revision=Version-1.0
           - echo "done"
           
