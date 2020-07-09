@@ -25,5 +25,6 @@ phases:
           - echo "building my amazing repo..."
           - ls
           - chmod +x lib/geckodriver
+          - mvn test
           
           
